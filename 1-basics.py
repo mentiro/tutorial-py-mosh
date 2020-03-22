@@ -12,11 +12,13 @@ print(name + " likes " + color)
 """
 
 
-#Type Convert
+#Type Conversion
+"""
 weight_lbs = input("What's your weight in Pounds? ")
 lbs2kg_ratio = 0.45359237 #1 pound = 0.45359237 kg
 weight_kg = int(weight_lbs) * lbs2kg_ratio
-print("You weight " + str('%.2f' % weight_kg) + " kg!") # '%.2f' %  - limits to 2 decimal points
+print("You weight " + str('%.2f' % weight_kg) + " kg!") # '%.2f' %  - limits to 2 decimal pointsg
+"""
 
 
-#
+#Strings
