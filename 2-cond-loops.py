@@ -26,3 +26,8 @@ else:
     downpayment = price*0.2
 print("You will need to put down $" + str('%.0f' % downpayment))    #"'%.0f' % downpayment" - 0 decimal points
 print(f"You will need to put down ${'%.0f' % downpayment}")         #same, but with formatted string
+
+
+### Left at - 01:06:38 (Logical Operators) ###
+
+###Logical Operators

@@ -72,7 +72,3 @@
 # import math              #this imports the "math" module - now we can access various methods (functions) used for various calculations
 # print(math.ceil(y))      #prints ceiling of the Variable
 # print(math.floor(y))     #prints floor of the Variable
-
-
-
-### Left at - 58:22 (If Statements) ###
