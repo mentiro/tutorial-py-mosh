@@ -71,10 +71,10 @@
 #else
 #   print that name looks good!
 
-# name=input("What's your name? ")
-# if len(name) < 3:
-#     print("Your name must be at least 3 characters")
-# elif len(name) > 50:
-#     print("Your name must not exceed 50 characters")
-# else:
-#     print("Cool name!")
+name=input("What's your name? ")
+if len(name) < 3:
+    print("Your name must be at least 3 characters")
+elif len(name) > 50:
+    print("Your name must not exceed 50 characters")
+else:
+    print("Cool name!")
