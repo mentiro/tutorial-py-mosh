@@ -40,12 +40,21 @@
 ##Exercies
 #Remove the duplicates in a list
 
-list=[1,2,10,3,4,5,10,6,7,8,9,10]
-list_no_dup=[]
-for i in list:
-    if i not in list_no_dup:
-        list_no_dup.append(i)
-list_no_dup.sort()
-print(list_no_dup)
+# list=[1,2,10,3,4,5,10,6,7,8,9,10]
+# list_no_dup=[]
+# for i in list:
+#     if i not in list_no_dup:
+#         list_no_dup.append(i)
+# list_no_dup.sort()
+# print(list_no_dup)
 
-## Left at 2:13:35 - Tuples
+
+###Tuples
+# list=(1,2,3)    #tuples use round paranthesis
+#a Tuple cannot be changed - this is the main difference to lists
+
+
+###Unpacking
+coordinates=(1,2,3)
+x,y,z=coordinates   #this will assign each variable to the values in the tuple
+print(x)
